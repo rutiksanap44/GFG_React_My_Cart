@@ -1,6 +1,4 @@
 import AddtoCartIcon from '../../assets/icons/cart.svg'
-import Products from '../Products/Products';
-// import AddtoCartIcon from '../assets/'
 const ListItem = ({ data }) => {
     return (
         <div className={'item-card'}>
@@ -18,7 +16,6 @@ const ListItem = ({ data }) => {
                 <span>Add to Cart</span>
                 <img src={AddtoCartIcon} alt="cart here" />
             </button>
-            <Products />
         </div>
     )
 };
