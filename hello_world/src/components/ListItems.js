@@ -1,22 +1,21 @@
-import AddtoCartIcon from '../assets/icons/cart.svg';
-const ListItem = () => {
+import AddtoCartIco from '../assets/icons/cart.svg';
+// import AddtoCartIcon from '../assets/'
+const ListItem = ({data}) => {
     return (
         <div className={'item-card'}>
-            <img className={'img-fluid'} src="/assets/random.jpg" alt="Cart here" />
+            <img className={'img-fluid'} src={data.thumbnail}alt="Cart here" />
             <div className={'item-card__information'}>
-                <div>
-                    <span>₹350</span>
-                    <small>
-                        <strike>450</strike>
-                    </small>
+                <div className={'price_div'}>
+                <div><span>₹{data.discountedPrice}</span></div>
+                <strike>{data.price}</strike>
                 </div>
                 <div className={'title'}>
-                    <h2>Title of the Item</h2>
+                    <h2>{data.title}</h2>
                 </div>
             </div>
             <button className={'cart-add'}>
                 <span>Add to Cart</span>
-                <img src={AddtoCartIcon} alt="cart here" />
+                <img src={AddtoCartIco} alt="cart here" />
             </button>
         </div>
     )
