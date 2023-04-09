@@ -3,7 +3,7 @@ import ListItem from '../ListItems/ListItem'
 const items = [
     {
         id: 0,
-        title: "My product 1",
+        title: "Title of Product 1",
         discountedPrice: 340,
         price: 400,
         thumbnail: "/assets/random.jpg"
@@ -11,7 +11,7 @@ const items = [
     },
     {
         id: 1,
-        title: "My product 2",
+        title: "Title of Product 2",
         discountedPrice: 500,
         price: 460,
         thumbnail: "/assets/random.jpg"
