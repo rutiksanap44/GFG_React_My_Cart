@@ -1,7 +1,14 @@
+.app{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .product-list {
+    display: flex;
+    flex-wrap: wrap;
     padding: 16px 32px;
     width: 100%;
-    min-height: 100vh;
+    // min-height: 100vh;
 
     &--wrapper {
         display: flex;
@@ -70,4 +77,65 @@ button .cart-add {
 .price_div{
     display: flex;
     justify-content: space-between;
+}
+.layout{
+    padding: 0;
+    margin: 0;
+    background-color: #494e50;
+    width: 100%;
+    height: 66.5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.header-heading{
+    position: absolute;
+    left: 3.5%;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    color: #ffffff;
+}
+.header-heading .fontawesomeicon{
+    margin-left: 12px;
+}
+.header-div-input{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.header-div-input input{
+    height: 35px;
+    width: 450px;
+    position: relative;
+    left:65%;
+    
+}
+.header-cart{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+::placeholder{
+    color: rgba(128, 128, 128, 0.897);
+    font-size: 15px;
+}
+.fasearchicon{
+    position: relative;
+    height: 35px;
+    font-size: 15px;
+    top:0px;
+    left: 292px;
+    width: 50px;
+    text-align: center;
+    background-color: #e96125;
+    color: #ffffff;
+}
+.cart-message {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    color: rgba(255, 0, 0, 0.623);
 }

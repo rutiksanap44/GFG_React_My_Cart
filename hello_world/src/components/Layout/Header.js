@@ -1,5 +1,6 @@
 const Header = () => {
     return (
+<<<<<<< HEAD
         <div>
         <header>
         <div class="nav-brand">
@@ -8,6 +9,15 @@ const Header = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="30"
                     height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round"
                     stroke-linejoin="round">
+=======
+        <header>
+        <div className="nav-brand">
+            <a to="/">
+                <span>AmaKart</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-shopping-cart" width="30"
+                    height="30" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" fill="none" strokeLinecap="round"
+                    strokeLinejoin="round">
+>>>>>>> 9155bd0b4f19756567341abed4642c7a65007574
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <circle cx="6" cy="19" r="2" />
                     <circle cx="17" cy="19" r="2" />
@@ -16,32 +26,55 @@ const Header = () => {
                 </svg>
             </a>
         </div>
+<<<<<<< HEAD
         <div class="searchBox-container">
+=======
+        <div className="searchBox-container">
+>>>>>>> 9155bd0b4f19756567341abed4642c7a65007574
             <form>
                 <input name="search" type="text"
                     id="search" placeholder="Enter product name, category" />
                 <button type="submit">
+<<<<<<< HEAD
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20"
                         height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
+=======
+                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-search" width="20"
+                        height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" fill="none"
+                        strokeLinecap="round" strokeLinejoin="round">
+>>>>>>> 9155bd0b4f19756567341abed4642c7a65007574
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <circle cx="10" cy="10" r="7" />
                         <line x1="21" y1="21" x2="15" y2="15" />
                     </svg>
                 </button>
             </form>
+<<<<<<< HEAD
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="20"
                 height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
+=======
+            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-search" width="20"
+                height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" fill="none" strokeLinecap="round"
+                strokeLinejoin="round">
+>>>>>>> 9155bd0b4f19756567341abed4642c7a65007574
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <circle cx="10" cy="10" r="7" />
                 <line x1="21" y1="21" x2="15" y2="15" />
             </svg>
         </div>
+<<<<<<< HEAD
         <div class="cart-container">
             <button>
                 <span data-items={0}>Cart</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart-plus" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+=======
+        <div className="cart-container">
+            <button>
+                <span data-items={0}>Cart</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-shopping-cart-plus" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white" fill="none" strokeLinecap="round" strokeLinejoin="round">
+>>>>>>> 9155bd0b4f19756567341abed4642c7a65007574
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <circle cx="6" cy="19" r="2" />
                     <circle cx="17" cy="19" r="2" />
@@ -52,7 +85,13 @@ const Header = () => {
             </button>
         </div>
     </header>
+<<<<<<< HEAD
         </div>
     )
 }
+=======
+    )
+}
+
+>>>>>>> 9155bd0b4f19756567341abed4642c7a65007574
 export default Header
