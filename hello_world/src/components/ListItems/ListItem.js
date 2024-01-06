@@ -1,7 +1,9 @@
 import AddtoCartIcon from '../../assets/icons/cart.svg'
+import Header from '../Layout/Header'
 const ListItem = ({ data }) => {
     return (
         <div className={'item-card'}>
+        <Header></Header>
             <img className={'img-fluid'} src={data.thumbnail} alt="Cart here" />
             <div className={'item-card__information'}>
                 <div className={'price_div'}>
